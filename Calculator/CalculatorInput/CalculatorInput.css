@@ -1,0 +1,25 @@
+.input-parent{
+    background-color: rgba(0, 119, 128, 0.171);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    padding-bottom: 0.1em;
+}
+.input-parent input{
+    background-color: transparent;
+    width: 97%;
+    height: 3.4em;
+    text-align: end;
+    border: 1px solid rgba(255, 255, 255, 0.075);
+    font-size: 25px;    
+}
+.input-parent input:focus{
+    outline: none;
+}
+.input-parent p{
+    font-size: 0.6em;
+    margin: 0;
+    align-self: flex-end;
+}
